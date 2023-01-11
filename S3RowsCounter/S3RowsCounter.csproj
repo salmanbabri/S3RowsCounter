@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.S3" Version="3.7.101.52" />
+      <PackageReference Include="Spectre.Console" Version="0.46.0" />
+    </ItemGroup>
+
 </Project>
